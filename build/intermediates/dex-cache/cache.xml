@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-support-vector-drawable-24.0.0_11c466d22542198d7815bb341e4dc569f9536d38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/all/debug/internal_impl-23.0.0_975cb0fade824565b8768e37e1b482ca9b82890e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/all/debug/support-annotations-23.0.0_1653c5956757e2d2383f30f56ac7ca6e631d84f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/arm7/debug/support-annotations-24.0.0_d1a3dc8cd8fa8913a71c488af0a2e92526cce6a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/all/debug/com.android.support-appcompat-v7-23.0.0_abc1663b82291e2c2d6c52462cb35f8fde74024f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/all/debug/com.android.support-support-v4-23.0.0_fb59d96e944f495305c84489047331e0590c2610.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/arm7/debug/internal_impl-24.0.0_e64a306ad0a5984b8eea86fc1b8cd02a817162d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-appcompat-v7-24.0.0_2146eab056b9caa82354681a7eaa38baf42e9520.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-support-v4-24.0.0_ba79ca09f61f771fa1ede854827f94a521ed8d57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/sashankjbs/AndroidStudioProjects/MyApplication/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-animated-vector-drawable-24.0.0_9e72ab92199e1f24ce7fd825d41196fa75b5b7b8.jar" />
+    </item>
+
+</items>

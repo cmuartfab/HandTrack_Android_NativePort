@@ -1,0 +1,324 @@
+apply plugin: 'com.android.model.application'
+
+def lib_distribution_root = "src/main/jniLibs/armeabi-v7a"
+def opencvSrcDir = "/Users/sashankjbs/Downloads/opencv-2.4.9"
+model {
+    repositories {
+        libs(PrebuiltLibraries) {
+
+            libopencv_ocl {
+                headers.srcDir "${opencvSrcDir}/modules/ocl/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_ocl.a")
+                }
+            }
+
+
+
+            libopencv_contrib {
+                headers.srcDir "${opencvSrcDir}/modules/contrib/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_contrib.a")
+                }
+            }
+
+            libopencv_legacy {
+                headers.srcDir "${opencvSrcDir}/modules/legacy/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_legacy.a")
+                }
+            }
+
+            libopencv_videostab {
+                headers.srcDir "${opencvSrcDir}/modules/videostab/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_videostab.a")
+                }
+            }
+
+            libopencv_photo {
+                headers.srcDir "${opencvSrcDir}/modules/photo/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_photo.a")
+                }
+            }
+
+            libopencv_stitching {
+                headers.srcDir "${opencvSrcDir}/modules/stitching/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_stitching.a")
+                }
+            }
+
+            libopencv_objdetect {
+                headers.srcDir "${opencvSrcDir}/modules/objdetect/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_objdetect.a")
+                }
+            }
+
+            libopencv_video {
+                headers.srcDir "${opencvSrcDir}/modules/video/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_video.a")
+                }
+            }
+
+            libopencv_ml {
+                headers.srcDir "${opencvSrcDir}/modules/ml/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_ml.a")
+                }
+            }
+
+            libopencv_calib3d {
+                headers.srcDir "${opencvSrcDir}/modules/calib3d/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_calib3d.a")
+                }
+            }
+
+            libopencv_features2d {
+                headers.srcDir "${opencvSrcDir}/modules/features2d/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_features2d.a")
+                }
+            }
+
+            libopencv_highgui {
+                headers.srcDir "${opencvSrcDir}/modules/highgui/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_highgui.a")
+                }
+            }
+
+            libopencv_flann {
+                headers.srcDir "${opencvSrcDir}/modules/flann/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_flann.a")
+                }
+            }
+
+            libopencv_imgproc {
+                headers.srcDir "${opencvSrcDir}/modules/imgproc/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_imgproc.a")
+                }
+            }
+
+            libopencv_core {
+                headers.srcDirs "${opencvSrcDir}/modules/core/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_core.a")
+                }
+            }
+
+            libopencv_nonfree {
+                headers.srcDir "${opencvSrcDir}/modules/nonfree/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_nonfree.a")
+                }
+            }
+
+
+            libopencv_superres {
+                headers.srcDir "${opencvSrcDir}/modules/superres/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_superres.a")
+                }
+            }
+
+            libopencv_ts {
+                headers.srcDir "${opencvSrcDir}/modules/ts/include/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libopencv_ts.a")
+                }
+            }
+
+
+            liblibjasper {
+                headers.srcDir "${opencvSrcDir}/3rdparty/libjasper/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/liblibjasper.a")
+                }
+            }
+
+            liblibjpeg {
+                headers.srcDir "${opencvSrcDir}/3rdparty/libjpeg/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/liblibjpeg.a")
+                }
+            }
+
+            liblibpng {
+                headers.srcDir "${opencvSrcDir}/3rdparty/libpng/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/liblibpng.a")
+                }
+            }
+
+            liblibtiff {
+                headers.srcDir "${opencvSrcDir}/3rdparty/libtiff/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/liblibtiff.a")
+                }
+            }
+
+            libtbb {
+                headers.srcDir "${opencvSrcDir}/3rdparty/tbb/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libtbb.a")
+                }
+            }
+
+            libIlmImf {
+                headers.srcDir "${opencvSrcDir}/3rdparty/openexr/"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${lib_distribution_root}/libIlmImf.a")
+                }
+            }
+
+
+
+
+        }
+    }
+    android {
+        compileSdkVersion 24
+        buildToolsVersion "24.0.1"
+
+        ndk {
+            moduleName "visioneng"
+            toolchain "gcc"
+            toolchainVersion "4.9"
+            cppFlags.addAll(["-Wall"])
+            cppFlags.addAll(["-march=armv7-a","-mfloat-abi=softfp","-mfpu=neon"])
+//            cppFlags.addAll(["-I/Users/sashankjbs/Downloads/opencv-2.4.9/modules/core/include/"])
+
+            cppFlags.addAll(["-I/Users/sashankjbs/Downloads/opencv-2.4.9/include/",
+                             "-I/Users/sashankjbs/Downloads/opencv-2.4.9/modules/core/include/"])
+
+            cppFlags.add("-std=c++11")
+            CFlags.add("-std=c++11")
+            CFlags.add("-fexceptions")
+            //CFlags.add("-DCUSTOM_DEFINE")
+            //cppFlags.add("-DCUSTOM_DEFINE")
+            //ldFlags.add("-L/custom/lib/path")
+            ldLibs.addAll(["log", "android", "jnigraphics", "atomic", "z", "stdc++"])
+            //stl "c++_static"
+            stl "gnustl_static"
+        }
+
+        defaultConfig {
+            applicationId "com.example.sashankjbs.myapplication"
+            minSdkVersion.apiLevel 17
+            targetSdkVersion.apiLevel 17
+            versionCode 1
+            versionName "1.0"
+
+            buildConfigFields {
+                create() {
+                    type "int"
+                    name "NAMEHERE"
+                    value "1"
+                }
+            }
+        }
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles.add(file('proguard-android.txt'))
+
+                ndk {
+                    debuggable true
+                }
+            }
+        }
+
+        productFlavors {
+            create("arm") {
+                ndk.abiFilters.add("armeabi")
+            }
+            create("arm7") {
+                ndk.abiFilters.add("armeabi-v7a")
+            }
+            create("arm8") {
+                ndk.abiFilters.add("arm64-v8a")
+            }
+            create("x86") {
+                ndk.abiFilters.add("x86")
+            }
+            create("x86-64") {
+                ndk.abiFilters.add("x86_64")
+            }
+            create("mips") {
+                ndk.abiFilters.add("mips")
+            }
+            create("mips-64") {
+                ndk.abiFilters.add("mips64")
+            }
+            // To include all cpu architectures, leaves abiFilters empty
+            create("all")
+        }
+
+        sources {
+            main {
+                java {
+                    source {
+                        srcDir "src/main/java"
+                    }
+                }
+
+                jni {
+                    dependencies {
+
+                        library 'libopencv_ocl' linkage 'static'
+                        library 'libopencv_contrib' linkage 'static'
+                        library 'libopencv_legacy' linkage 'static'
+                        library 'libopencv_videostab' linkage 'static'
+                        library 'libopencv_photo' linkage 'static'
+                        library 'libopencv_stitching' linkage 'static'
+                        library 'libopencv_objdetect' linkage 'static'
+                        library 'libopencv_video' linkage 'static'
+                        library 'libopencv_ml' linkage 'static'
+                        library 'libopencv_calib3d' linkage 'static'
+                        library 'libopencv_features2d' linkage 'static'
+                        library 'libopencv_highgui' linkage 'static'
+                        library 'libopencv_flann' linkage 'static'
+
+                        library 'libopencv_imgproc' linkage 'static'
+                        library 'libopencv_core' linkage 'static'
+
+                        library 'libopencv_nonfree' linkage 'static'
+                        library 'libopencv_superres' linkage 'static'
+                        library 'libopencv_ts' linkage 'static'
+
+
+
+                        library 'libIlmImf' linkage 'static'
+                        library 'liblibjasper' linkage 'static'
+                        library 'liblibjpeg' linkage 'static'
+                        library 'liblibpng' linkage 'static'
+                        library 'liblibtiff' linkage 'static'
+                        library 'libtbb' linkage 'static'
+
+                    }
+                    source {
+                        srcDir "src/main/jniLibs/armeabi-v7a"
+                    }
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:support-v4:24.0.0'
+ //   androidTestCompile 'com.android.support.test:runner:0.4.1'
+ //   androidTestCompile 'com.android.support.test:rules:0.4.1'
+//    androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.2.2'
+}
