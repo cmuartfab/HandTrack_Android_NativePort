@@ -26,8 +26,11 @@ Kindly download OpenCV 2.4.9 since the ARM binaries used to build the applicatio
 #Project Installation
 
 To install the project complete the following steps.
+
 1. Clone this repository: git clone https://github.com/sashankjbs/HandTrackAndroidNativePort.git
+
 2. Open the Project in Android Studio
+
 3. In the gradle folder, make the following changes to local.properties
 ndk.dir = (NDK path in your system)
 sdk.dir = (SDK path in your system)
